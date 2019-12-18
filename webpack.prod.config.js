@@ -17,7 +17,7 @@ module.exports = {
 
       // преобразует scss в css и собирает все в main.css (для билда в prod режиме)
       {
-        test: /\.css$/i,
+        test: /\.scss$/i,
         use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"]
       }
     ]
