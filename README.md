@@ -1,1 +1,1 @@
-# webpack_conf
+# Настройка webpack
