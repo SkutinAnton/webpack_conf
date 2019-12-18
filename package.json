@@ -6,7 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server",
-    "build": "webpack"
+
+    "build:dev_desc": "сборка кофига webpack.dev.config.js для дев режима",
+    "build:dev": "webpack --config webpack.dev.config.js",
+
+    "build:prod_desc": "сборка кофига webpack.prod.config.js для прод режима",
+    "build:prod": "webpack --config webpack.prod.config.js",
+
+    "build:env_desc": "сборка с параметрами которые можно получить в webpack.config.js",
+    "build:env": "webpack --env.mode=production"
   },
   "author": "",
   "license": "ISC",
